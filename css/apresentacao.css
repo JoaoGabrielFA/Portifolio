@@ -1,0 +1,52 @@
+.apresentacao{
+    flex-direction: row;
+    background-color: #F5F5F5;
+}
+
+.apresentacao div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 300px;
+}
+
+.apresentacao div:first-child{
+    width: 65%;
+}
+
+.apresentacao div:last-child{
+    width: 35%;
+}
+
+.apresentacao--textoPrincipal{
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.apresentacao--textoSecundario{
+    padding: 15px 0;
+    font-size: 1.5rem;
+}
+
+.apresentacao__lista{
+    display: flex;
+}
+
+.apresentacao__lista--item{
+    margin-right: 20px;
+    list-style-type: none;
+    cursor: pointer;
+}
+
+.apresentacao__lista--item a{
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.apresentacao--imagem{
+    align-self: flex-end;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background-color: #000000;
+}

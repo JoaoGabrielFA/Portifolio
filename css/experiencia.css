@@ -1,0 +1,50 @@
+.experiencia{
+    background: #F5F5F5;
+}
+
+.experiencia__item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 40px;
+}
+
+.experiencia__item--img.par{
+    order: 2;
+}
+
+.experiencia__item--img{
+    width: 65%;
+    aspect-ratio: 16/9;
+    background-color: white;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+}
+
+.experiencia__item--dados{
+    display: flex;
+    flex-direction: column;
+    padding: 0 20px;
+}
+
+.experiencia__item--descricao{
+    padding: 8px 0 30px;
+}
+
+.experiencia__lista--repositorio, .experiencia__lista--demo{
+    padding: 15px;
+    border: 2px solid #2A7AE4;;
+    text-decoration: none;
+}
+
+.experiencia__lista--repositorio{
+    margin-right: 15px;
+    color: #2A7AE4;
+    background: #FFFFFF;
+}
+
+.experiencia__lista--demo{
+    color: #FFFFFF;
+    background: #2A7AE4;
+}

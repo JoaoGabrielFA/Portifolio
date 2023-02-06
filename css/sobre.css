@@ -1,0 +1,18 @@
+.sobre{
+    background: #EAF2FD;
+}
+
+.sobre--titulo{
+    align-self: flex-start;
+}
+
+.sobre--texto{
+    width: 65%;
+    margin: 0 0 20px 0;
+}
+
+.sobre--assinatura{
+    width: 140px;
+    height: auto;
+}
+

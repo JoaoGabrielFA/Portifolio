@@ -1,0 +1,40 @@
+body{
+    width: 100%;
+    background-color: rgb(163, 163, 163);
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+footer{
+    width: 100%;
+    padding: 2rem 0;
+    background-color: #FFFFFF;
+    text-align: center;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+    padding: 60px 7.5%;
+}
+
+span, a{
+    color: #464646;
+}
+
+.titulo{
+    align-self: center;
+    padding-bottom: 20px;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.subtitulo{
+    font-size: 1.5rem;
+    font-weight: bold;
+}

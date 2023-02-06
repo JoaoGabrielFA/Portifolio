@@ -1,0 +1,28 @@
+.formacao{
+    background: #EAF2FD;
+}
+
+.formacao--lista{
+    display: flex;
+    justify-content: space-between;
+}
+
+.formacao__lista--card{
+    display: flex;
+    flex-direction: column;
+}
+
+.formacao__lista--img{
+    background-size: 60%;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 420px;
+    aspect-ratio: 4/3;
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+.formacao__lista--titulo{
+    padding: 8px 0;
+}

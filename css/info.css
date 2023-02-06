@@ -1,0 +1,34 @@
+.info{
+    background: #F5F5F5;
+}
+
+.info__lista{
+    display: flex;
+    justify-content: space-between;
+}
+
+.info__lista--item{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    width: 200px;
+    aspect-ratio: 1/1;
+    background-color: white;
+    border-radius: 10px;
+    list-style-type: none;
+}
+
+.info__lista--img, .info__lista--texto{
+    margin: 0 0 15px 15px;
+}
+
+.info__lista--img{
+    height: 35px;
+    aspect-ratio: 1/1;
+}
+
+.info__lista--texto{
+    font-size: 0.9rem;
+    font-weight: bold;
+}
