@@ -42,3 +42,14 @@
 .header span, header a{
     color: #FFFDD0;
 }
+
+@media screen and (max-width: 414px) {
+    .header--nome{
+        display: none;
+    }
+
+    .header__lista{
+        flex-direction: column;
+        padding-top: 5rem;
+    }
+}

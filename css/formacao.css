@@ -42,3 +42,10 @@
     filter: drop-shadow(1px 1px black);
     cursor: pointer;
 }
+
+@media screen and (max-width: 414px) {
+    .formacao__lista--card{
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+}

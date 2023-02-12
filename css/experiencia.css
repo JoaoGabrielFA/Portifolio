@@ -95,50 +95,60 @@ mark{
     font-weight: bold;
 }
 
+@media screen and (max-width: 414px) {
+    .experiencia__lista{
+        flex-direction: column;
+        overflow: initial;
+        border: none;
+        box-shadow: 0px 0px 10px #00000000;
+    }
 
-/*.experiencia__item{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-bottom: 40px;
+    .experiencia__item{
+        display: flex;
+        flex-direction: column;
+        width: calc(100% - 4px);
+        margin-bottom: 20px;
+        border: 2px solid #FFFDD0;
+        border-radius: 10px;
+        box-shadow: 0px 0px 10px #000000bf;
+    }
+
+    .experiencia--botoes{
+        display: none;
+    }
+
+    .experiencia__item--img{
+        border-top-left-radius: 8px;
+        border-top-right-radius: 8px;
+        width: 100%;
+    }
+
+    .experiencia__item--dados{
+        margin: .8rem .5rem;
+    }
+
+    .experiencia__item--titulo{
+        height: auto;
+        font-size: 1.5rem;
+    }
+    
+    .experiencia__item--descricao{
+        height: auto;
+        margin: 8px 0;
+    }
+
+    .experiencia__item--skills{
+        margin-bottom: 8px;
+    }
+
+    .experiencia__item--botoes{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .experiencia__item--botoes>*{
+        width: 49%;
+        margin: 0;
+    }
 }
-
-.experiencia__item--img.par{
-    order: 2;
-}
-
-.experiencia__item--img{
-    width: 65%;
-    aspect-ratio: 16/9;
-    background-color: white;
-    background-size: cover;
-    background-position: center;
-    border-radius: 10px;
-}
-
-.experiencia__item--dados{
-    display: flex;
-    flex-direction: column;
-    padding: 0 20px;
-}
-
-.experiencia__item--descricao{
-    padding: 8px 0 30px;
-}
-
-.experiencia__lista--repositorio, .experiencia__lista--demo{
-    padding: 15px;
-    border: 2px solid #2A7AE4;;
-    text-decoration: none;
-}
-
-.experiencia__lista--repositorio{
-    margin-right: 15px;
-    color: #2A7AE4;
-    background: #FFFFFF;
-}
-
-.experiencia__lista--demo{
-    color: #FFFFFF;
-    background: #2A7AE4;
-}*/

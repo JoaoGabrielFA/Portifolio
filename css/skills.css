@@ -57,3 +57,31 @@
 .skills__item--nivel{
     font-size: 2rem;
 }
+
+@media screen and (max-width: 414px) {
+    .skills__item{
+        width: calc(30% - 4px);
+        aspect-ratio: 3/4;
+        margin-right: 5%;
+        margin-bottom: 1.3rem;
+    }
+
+    .skills__item:nth-child(3n){
+        margin-right: 0;
+    }
+
+    .skills__item--img{
+        width: 80%;
+        margin-top: 5px;
+    }
+
+    .skills__item--nome{
+        font-size: .9rem;
+        margin-bottom: 5px;
+    }
+
+    .skills__item--nivel{
+        font-size: 1rem;
+    }
+    
+}

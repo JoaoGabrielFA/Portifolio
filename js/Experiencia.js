@@ -32,16 +32,16 @@ class Experiencia{
     #criaExperiencia(){
         document.querySelector('.experiencia__lista').innerHTML +=
         `<div class="experiencia__item">`+
-        `<div class="experiencia__item--img" style="background-image: url(./img/experiencias/${this.#imagem});"></div>`+
-        `<div class="experiencia__item--dados">`+
-            `<span class="experiencia__item--titulo subtitulo">${this.#titulo}</span>`+
-            `<span class="experiencia__item--descricao">${this.#descricao}</span>`+
-            `<div class="experiencia__item--skills" id="skillsExperiencia${this.#numero}"></div>`+
-            `<div class="experiencia__item--botoes">`+
-                `<button class="experiencia__lista--repositorio" onclick="abrirLink('${this.#repositorio}')">${this.#botao1}</button>`+
-                `<button class="experiencia__lista--demo" onclick="abrirLink('${this.#demo}')">${this.#botao2}</button>`+
+            `<div class="experiencia__item--img" style="background-image: url(./img/experiencias/${this.#imagem});"></div>`+
+            `<div class="experiencia__item--dados">`+
+                `<span class="experiencia__item--titulo subtitulo">${this.#titulo}</span>`+
+                `<span class="experiencia__item--descricao">${this.#descricao}</span>`+
+                `<div class="experiencia__item--skills" id="skillsExperiencia${this.#numero}"></div>`+
+                `<div class="experiencia__item--botoes">`+
+                    `<button class="experiencia__lista--repositorio" onclick="abrirLink('${this.#repositorio}')">${this.#botao1}</button>`+
+                    `<button class="experiencia__lista--demo" onclick="abrirLink('${this.#demo}')">${this.#botao2}</button>`+
+                `</div>`+
             `</div>`+
-        `</div>`+
         `</div>`;
     }
 

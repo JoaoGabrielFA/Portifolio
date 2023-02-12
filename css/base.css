@@ -34,8 +34,8 @@ footer{
 section{
     display: flex;
     flex-direction: column;
-    width: 85%;
-    padding: 60px 7.5%;
+    width: 90%;
+    padding: 60px 5%;
 }
 
 .revelar{

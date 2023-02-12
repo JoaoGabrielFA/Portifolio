@@ -53,3 +53,7 @@
     background-position: center;
     box-shadow: 2px 2xp black;
 }
+
+@media screen and (max-width: 414px) {
+    
+}
