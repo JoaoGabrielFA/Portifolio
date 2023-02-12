@@ -1,8 +1,6 @@
 .contato{
     flex-direction: row;
     justify-content: space-between;
-    background: #EAF2FD;
-    padding-top: 100px;
 }
 
 .contato--img{
@@ -11,13 +9,14 @@
     background-image: url("../img/contato.jpg");
     background-position: center;
     background-size: cover;
+    display: none;
 }
 
 .contato__formulario{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    width: 63%;
+    width: 60%;
 }
 
 .contato__formulario--info{
@@ -34,28 +33,30 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    width: 100%;
     height: 80%;
+    width: 100%;
 }
 
-.contato__formulario--input,
+/*.contato__formulario--input,
 .contato__formulario--textarea,
 .contato__formulario--submit{
-    box-shadow: 0 2px #00000088;
-}
+    box-shadow: 0 0 10px #00000088;
+}*/
 
 .contato__formulario--input:focus,
 .contato__formulario--textarea:focus,
 .contato__formulario--submit:focus{
     outline: transparent;
-    box-shadow: 0 2px #2A7AE4;
+    box-shadow: 0 2px #FFFDD0;
 }
 
-.contato__formulario--input{
+.contato__formulario--input, .contato__formulario--textarea{
     width: calc(100% - 1rem);
-    height: 3.2rem; 
+    height: 3rem;
     padding: .5rem .5rem 0;
     border: none;
+    background-color: #FFFFFF24;
+    color: #FFFDD0;
 }
 
 .contato__formulario--input::placeholder{
@@ -65,27 +66,38 @@
 .contato__formulario--label{
     position: relative;
     left: .5rem;
-    top: -3.4rem;
+    top: -2.1rem;
+    color: #FFFDD0;
+    pointer-events: none;
+    transition: .5s;
+}
+
+.contato__formulario--input:focus + .contato__formulario--label,
+.contato__formulario--input:not(:placeholder-shown) + .contato__formulario--label{
     font-size: .8rem;
-    color: #5d5d5d;
+    top: -3.3rem;
+}
+
+.contato__formulario--textarea{
+    height: 7rem;
+    resize: none;
+}
+
+.contato__formulario--textarea::placeholder{
+    color: #FFFDD0;
 }
 
 .contato__formulario--input:focus +
 .contato__formulario--label{
-    color: #2A7AE4;
-}
-
-.contato__formulario--textarea{
-    width: calc(100% - 1rem);
-    height: 8rem;
-    padding: .5rem .5rem 0;
-    resize: none;
-    border: none;
+    color: #FFFDD0;
 }
 
 .contato__formulario--submit{
-    height: 3.2rem;
-    border: none;
-    color: white;
-    background: #2A7AE4;
+    height: 3rem;
+    margin-top: 1.2rem;
+    border: 2px solid #FFFDD0;
+    background-color: #FFFDD0;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
 }

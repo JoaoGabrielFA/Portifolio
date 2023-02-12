@@ -1,8 +1,102 @@
-.experiencia{
-    background: #F5F5F5;
+:root{
+    --slide_atual: 0;
+}
+
+.experiencia--botoes{
+    height: 40px;
+    font-size: 1.5rem;
+    background-color: #0000003a;
+    border: 2px solid #FFFDD0;
+    border-radius: 10px;
+    color: #FFFDD0;
+    font-weight: bold;
+    box-shadow: 0px 2px black;
+    cursor: pointer;
+}
+
+.experiencia--botoes:disabled{
+    border-color: grey;
+    color: gray;
+}
+
+.experiencia__lista{
+    width: 100%;
+    display: flex;
+    overflow: hidden;
+    margin: 0 .5%;
+    border: 2px solid #FFFDD0;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px #000000bf;
 }
 
 .experiencia__item{
+    position: relative;
+    left: var(--slide_atual);;
+    display: flex;
+    flex-shrink: 0;
+    width: 100%;
+    aspect-ratio: 24/9;
+    background-color: #ffffff24;
+    transition: 1s;
+}
+
+.experiencia__item--img{
+    width: 70%;
+    aspect-ratio: 16/9;
+    background-size: cover;
+    background-position: center;
+}
+
+.experiencia__item--dados{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: .8rem;
+}
+
+.experiencia__item--titulo{
+    height: 10%;
+    font-size: 2rem;
+}
+
+.experiencia__item--descricao{
+    height: 40%;
+    text-align: center;
+}
+
+.experiencia__item--skill{
+    width: 50px;
+    aspect-ratio: 1/1;
+    filter: invert(100%);
+}
+
+.experiencia__item--botoes>*{
+    width: 150px;
+    height: 50px;
+    margin: 0 10px;
+    background-color: #0000003a;
+    border: 2px solid #FFFDD0;
+    border-radius: 10px;
+    color: #FFFDD0;
+    font-weight: bold;
+    box-shadow: 0px 2px black;
+    cursor: pointer;
+}
+
+.experiencia__item--botoes>*:hover{
+    transform: translate(0px, 2px);
+    box-shadow: 0px 2px transparent;
+}
+
+mark{
+    color: #FFFDD0;
+    background-color: transparent;
+    font-weight: bold;
+}
+
+
+/*.experiencia__item{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -47,4 +141,4 @@
 .experiencia__lista--demo{
     color: #FFFFFF;
     background: #2A7AE4;
-}
+}*/

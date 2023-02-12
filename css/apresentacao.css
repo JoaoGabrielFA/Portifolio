@@ -1,20 +1,19 @@
 .apresentacao{
     flex-direction: row;
-    background-color: #F5F5F5;
 }
 
-.apresentacao div{
+.apresentacao--div{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 300px;
+    height: 100vh;
 }
 
-.apresentacao div:first-child{
+.apresentacao--div:first-child{
     width: 65%;
 }
 
-.apresentacao div:last-child{
+.apresentacao--div:last-child{
     width: 35%;
 }
 
@@ -45,8 +44,12 @@
 
 .apresentacao--imagem{
     align-self: flex-end;
-    width: 300px;
-    height: 300px;
-    border-radius: 50%;
-    background-color: #000000;
+    height: 500px;
+    aspect-ratio: 3/4;
+    border: #FFFDD0 2px solid;
+    border-radius: 20px;
+    /*background-image: url("../img/foto.jpeg");*/
+    background-size: cover;
+    background-position: center;
+    box-shadow: 2px 2xp black;
 }
