@@ -12,6 +12,10 @@
     font-weight: bold;
 }
 
+#header--check{
+    display: none;
+}
+
 .header__lista{
     display: flex;
     justify-content: flex-end;
@@ -44,12 +48,48 @@
 }
 
 @media screen and (max-width: 414px) {
+    .header{
+        height: auto;
+        width: 95%;
+        padding: 10px 2.5%;
+        margin: auto;
+        flex-wrap: wrap;
+    }
+
     .header--nome{
+        width: calc(100% - 50px);
+    }
+
+    .header__lista{
         display: none;
+        transition: 1s;
+    }
+
+    #header--check:checked ~ .header__lista {
+        display: flex;
+        
+    }
+
+    .header--button{
+        width: 50px; 
+        aspect-ratio: 1/1; 
+        background-image: url(../img/menu.svg); 
+        background-position: center; 
+        background-size: cover; 
     }
 
     .header__lista{
         flex-direction: column;
-        padding-top: 5rem;
+        align-items: center;
+        width: 100%;
+    }
+    
+    .header__lista--item{
+        margin: 0;
+        top: 60px;
+    }
+
+    .header__lista--item a{
+        font-size: 2rem;
     }
 }

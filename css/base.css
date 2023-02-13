@@ -34,8 +34,8 @@ footer{
 section{
     display: flex;
     flex-direction: column;
-    width: 90%;
-    padding: 60px 5%;
+    width: 85%;
+    padding: 60px 7.5%;
 }
 
 .revelar{
@@ -83,4 +83,11 @@ span, a{
 @keyframes move-clouds-back {
     from {background-position:0 0;}
     to {background-position:10000px 0;}
+}
+
+@media screen and (max-width: 414px) {
+    section{
+        width: 95%;
+        padding: 50px 2.5%;
+    }
 }

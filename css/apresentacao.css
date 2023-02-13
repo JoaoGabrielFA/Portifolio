@@ -55,5 +55,41 @@
 }
 
 @media screen and (max-width: 414px) {
-    
+    .apresentacao{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .apresentacao--div:first-child, .apresentacao--div:last-child{
+        height: auto;
+        width: 100%;
+    }
+
+    .apresentacao--textoPrincipal{
+        padding-top: 10px;
+        font-size: 2.2rem;
+        text-align: center;
+    }
+
+    .apresentacao--textoSecundario{
+        font-size: 1.2rem;
+        text-align: center;
+    }
+
+    .apresentacao--div:last-child{
+        order: -1;
+    }
+
+    .apresentacao--imagem{
+        height: 300px;
+        margin: auto;
+    }
+
+    .apresentacao__lista{
+        justify-content: space-between;
+    }
+
+    .apresentacao__lista--item{
+        margin: 0;
+    }
 }
