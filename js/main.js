@@ -19,22 +19,22 @@ function reveal(){
     }
 }   
 
-new Skill('HTML', '../img/skills/html.svg', 4);
-new Skill('CSS', '../img/skills/css.svg', 4);
-new Skill('Javascript', '../img/skills/js.svg', 4);
-new Skill('Java', '../img/skills/java.svg', 3);
-new Skill('C#', '../img/skills/cs.svg', 2);
-new Skill('SQL', '../img/skills/sql.svg', 2);
-new Skill('C', '../img/skills/c.svg', 1);
-new Skill('C++', '../img/skills/cpp.svg', 1);
-new Skill('Python', '../img/skills/python.svg', 1);
+new Skill('HTML', './img/skills/html.svg', 4);
+new Skill('CSS', './img/skills/css.svg', 4);
+new Skill('Javascript', './img/skills/js.svg', 4);
+new Skill('Java', './img/skills/java.svg', 3);
+new Skill('C#', './img/skills/cs.svg', 2);
+new Skill('SQL', './img/skills/sql.svg', 2);
+new Skill('C', './img/skills/c.svg', 1);
+new Skill('C++', './img/skills/cpp.svg', 1);
+new Skill('Python', './img/skills/python.svg', 1);
 
 new Formacao('Iniciante em Progamação', 'Alura', 'alura_programacao.jpg', '08', '2022', 'https://cursos.alura.com.br/degree/certificate/eb04c6b3-096c-493f-9c49-2f613c2d9783');
 new Formacao('Lógica de Programação', 'Udemy','udemy.jpg', '10', '2022', 'https://www.udemy.com/certificate/UC-f64278c0-efc1-44d7-95eb-3b1cc30f21d2/' );
 new Formacao('Front-end', 'Alura', 'alura_front-end.jpg', '11', '2022', 'https://cursos.alura.com.br/degree/certificate/c21db86c-fcab-4804-aa24-15d5084b322d');
 new Formacao('Java e Orientação a Objetos', 'Alura', 'alura_programacao.jpg', '01', '2023', 'https://cursos.alura.com.br/degree/certificate/c42d57dd-10eb-4e0b-bfcc-3089704be525');
 new Formacao('Business Agility', 'Alura', 'alura_inovacao_e_gestao.jpg', '02', '2023', 'https://cursos.alura.com.br/degree/certificate/790f0524-dcb0-4b6d-afd9-dd6f843359c6');
-new Formacao('Desenvolvimento Pessoal', 'Alura', 'alura_inovacao_e_gestao.jpg');
+new Formacao('Desenvolvimento Pessoal', 'Alura', 'alura_inovacao_e_gestao.jpg', '02', '2023', 'https://cursos.alura.com.br/degree/certificate/fb466f2b-52b0-4114-b5f0-e34c102acdd6');
 new Formacao('Empreendedorismo', 'Alura', 'alura_inovacao_e_gestao.jpg');
 
 new Experiencia("AluraGeek",
