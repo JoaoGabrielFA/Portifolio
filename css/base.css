@@ -73,7 +73,7 @@ span, a{
     right:0;
     bottom:0;
     width:100%;
-    height:672.7%;
+    height:674.5%;
     display:block;
     background:#00000027 url(../img/estrelas.png) repeat top center;
     animation:move-clouds-back 2000s linear infinite;
@@ -89,5 +89,9 @@ span, a{
     section{
         width: 95%;
         padding: 50px 2.5%;
+    }
+
+    .estrelas{
+        height:848%;
     }
 }

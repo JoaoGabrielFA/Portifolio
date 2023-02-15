@@ -11,8 +11,19 @@
     margin: 0 0 20px 0;
 }
 
-.sobre--assinatura{
-    width: 140px;
-    height: auto;
-}
+@media screen and (max-width: 414px) {
+    .sobre{
+        width: 95%;
+        padding: 200px 2.5%;
+        align-items: center;
+    }
 
+    .sobre--titulo{
+        align-self: center;
+    }
+
+    .sobre--texto{
+        text-align: center;
+        width: 80%;
+    }
+}
