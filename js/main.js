@@ -36,6 +36,9 @@ new Formacao('Java e Orientação a Objetos', 'Alura', 'alura_programacao.jpg', 
 new Formacao('Business Agility', 'Alura', 'alura_inovacao_e_gestao.jpg', '02', '2023', 'https://cursos.alura.com.br/degree/certificate/790f0524-dcb0-4b6d-afd9-dd6f843359c6');
 new Formacao('Desenvolvimento Pessoal', 'Alura', 'alura_inovacao_e_gestao.jpg', '02', '2023', 'https://cursos.alura.com.br/degree/certificate/fb466f2b-52b0-4114-b5f0-e34c102acdd6');
 new Formacao('Empreendedorismo', 'Alura', 'alura_inovacao_e_gestao.jpg', '02', '2023', 'https://cursos.alura.com.br/degree/certificate/f5cb6722-e612-4a28-9213-37ff3b995fbe');
+new Formacao('SQL com MySQL Server da Oracle', 'Alura', 'alura_data_science.jpg');
+//new Formacao('Python, Data Science no OCI e Oracle Analytics', 'Alura', 'alura_data_science.jpg');
+//new Formacao('Oracle Cloud Infrastructure', 'Alura', 'alura_devops.jpg');
 
 new Experiencia("AluraGeek",
     "Alurageek é um site de e-commerce que foi desenvolvido com HTML, CSS e Javascript. Ele possui recursos para gerenciamento de produtos, incluindo a possibilidade de fazer login, criar, editar e excluir produtos. Além disso, uma máscara de monetária foi implementada para formatar os preços de maneira intuitiva para os usuários. <mark>(01/2023)</mark>",

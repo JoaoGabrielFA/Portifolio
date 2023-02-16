@@ -1,5 +1,6 @@
 .header{
     display: flex;
+    justify-content: space-between;
     align-items: center;
     width: 85%;
     height: 73px;
@@ -8,7 +9,6 @@
 }
 
 .header--nome{
-    width: 30%;
     font-weight: bold;
 }
 
@@ -19,7 +19,6 @@
 .header__lista{
     display: flex;
     justify-content: flex-end;
-    width: 70%;
 }
 
 .header__lista--item{
@@ -27,7 +26,6 @@
     font-weight: bold;
     list-style-type: none;
     cursor: pointer;
-    padding-bottom: 3px;
     border-bottom: 3px solid transparent;
 }
 
@@ -47,11 +45,23 @@
     color: #FFFDD0;
 }
 
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 480px) {
     .header{
-        height: auto;
         width: 95%;
         padding: 10px 2.5%;
+    }
+}
+
+@media screen and (min-width: 480px) and (max-width: 991px) {
+    .header{
+        width: 90%;
+        padding: 10px 5%;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .header{
+        height: auto;
         margin: auto;
         flex-wrap: wrap;
     }

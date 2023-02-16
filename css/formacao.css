@@ -1,6 +1,5 @@
 .formacao--lista{
     display: flex;
-    justify-content: space-between;
     flex-wrap: wrap;
 }
 
@@ -9,6 +8,11 @@
     flex-direction: column;
     width: 32%;
     margin-bottom: 2rem;
+    margin-right: 2%;
+}
+
+.formacao__lista--card:nth-child(3n){
+    margin-right: 0;
 }
 
 .formacao__lista--img{
@@ -16,7 +20,7 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: flex-end;
-    width: 100%;
+    width: calc(100% - 4px);
     aspect-ratio: 16/9;
     border: 2px solid white;
     border-radius: 10px;
@@ -43,9 +47,22 @@
     cursor: pointer;
 }
 
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 480px) {
     .formacao__lista--card{
         width: 100%;
         margin-bottom: 2rem;
+        margin-right: 0;
+    }
+}
+
+@media screen and (min-width: 480px) and (max-width: 991px) {
+    .formacao--lista{
+        justify-content: space-between;
+    }
+
+    .formacao__lista--card{
+        width: 48%;
+        margin-bottom: 2rem;
+        margin-right: 0;
     }
 }

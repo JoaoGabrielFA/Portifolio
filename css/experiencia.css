@@ -56,12 +56,13 @@
 }
 
 .experiencia__item--titulo{
-    height: 10%;
+    height: auto;
     font-size: 2rem;
 }
 
 .experiencia__item--descricao{
     height: 40%;
+    overflow-y: auto;
     text-align: center;
 }
 
@@ -71,10 +72,15 @@
     filter: invert(100%);
 }
 
+.experiencia__item--botoes{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
 .experiencia__item--botoes>*{
-    width: 150px;
+    width: 48.5%;
     height: 50px;
-    margin: 0 10px;
     background-color: #0000003a;
     border: 2px solid #FFFDD0;
     border-radius: 10px;
@@ -95,7 +101,7 @@ mark{
     font-weight: bold;
 }
 
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 700px) {
     .experiencia__lista{
         flex-direction: column;
         overflow: initial;
@@ -140,15 +146,29 @@ mark{
     .experiencia__item--skills{
         margin-bottom: 8px;
     }
+}
 
-    .experiencia__item--botoes{
-        display: flex;
-        justify-content: space-between;
-        width: 100%;
+@media screen and (min-width: 701px) and (max-width: 991px) {
+    .experiencia__item--img{
+        width: 50%;
+        aspect-ratio: 16/9;
+        background-size: cover;
+        background-position: center;
     }
 
-    .experiencia__item--botoes>*{
-        width: 49%;
-        margin: 0;
+    .experiencia__item--dados{
+        margin: .8rem .5rem;
+    }
+
+    .experiencia__item--titulo{
+        font-size: 1.5rem;
+    }
+
+    .experiencia__item--descricao{
+        height: 60%;
+    }
+
+    .experiencia__item--skills{
+        display: none;
     }
 }
