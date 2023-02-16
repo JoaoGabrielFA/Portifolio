@@ -44,6 +44,13 @@ new Experiencia("AluraGeek",
     "https://joaogabrielfa.github.io/AluraGeek/"
 ).addSkills('html', 'css', 'js');
 
+new Experiencia("Conversor de Moedas",
+    "Meu primeiro projeto em Java, uma aplicação simples para converter diferentes moedas, incluindo real, dólar, euro, libra, iene, won, peso argentino, além de um campo para digitar outras moedas. Para obter as cotações de moedas atualizadas, implementei uma API. <mark>(02/2023)</mark>",
+    "conversor_de_moeda.png",
+    "https://github.com/JoaoGabrielFA/ConversorDeMoedas",
+    "https://github.com/JoaoGabrielFA/ConversorDeMoedas"
+).addSkills('java');
+
 new Experiencia("Jogo da Forca",
     "Este jogo de forca simples foi desenvolvido com HTML, CSS, Javascript e um pouco de Bootstrap. Possui 50 palavras distribuídas entre 5 categorias distintas e um código que registra o número de tentativas dos jogadores. Além disso, a arte do jogo foi criada por mim. <mark>(11/2022)</mark>",
     "jogo_da_forca.png",
