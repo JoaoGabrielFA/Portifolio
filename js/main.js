@@ -40,6 +40,13 @@ new Formacao('SQL com MySQL Server da Oracle', 'Alura', 'alura_data_science.jpg'
 //new Formacao('Python, Data Science no OCI e Oracle Analytics', 'Alura', 'alura_data_science.jpg');
 //new Formacao('Oracle Cloud Infrastructure', 'Alura', 'alura_devops.jpg');
 
+new Experiencia("Cost",
+    "Costs é um site de controle de gastos que foi desenvolvido com React.JS. Ele possui recursos para criar projetos com nome e orçamento, e posteriormente criar serviços cujo valor é descontado do orçamento dos projetos. Além disso, foi simulado o uso de um servidor com um servidor JSON. <mark>(03/2023)</mark>",
+    "costs.png",
+    "https://github.com/JoaoGabrielFA/Costs",
+    "https://github.com/JoaoGabrielFA/Costs"
+).addSkills('js', 'css', 'html');
+
 new Experiencia("AluraGeek",
     "Alurageek é um site de e-commerce que foi desenvolvido com HTML, CSS e Javascript. Ele possui recursos para gerenciamento de produtos, incluindo a possibilidade de fazer login, criar, editar e excluir produtos. Além disso, uma máscara de monetária foi implementada para formatar os preços de maneira intuitiva para os usuários. <mark>(01/2023)</mark>",
     "alurageek.png",
